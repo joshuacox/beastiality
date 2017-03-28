@@ -1,0 +1,2 @@
+all:
+	kdenlive beasty.kdenlive
