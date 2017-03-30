@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <mlt title="Anonymous Submission" version="6.4.1" root="/mnt/unreal/beasty" producer="main bin" LC_NUMERIC="C">
  <profile width="1920" frame_rate_den="1" height="1080" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30" colorspace="709" sample_aspect_den="1" description="HD 1080p 30 fps" progressive="1" sample_aspect_num="1"/>
- <producer id="2" title="Anonymous Submission" out="15046" in="0">
-  <property name="length">00:08:21:17</property>
+ <producer id="3" title="Anonymous Submission" out="14819" in="0">
+  <property name="length">00:08:14:00</property>
   <property name="eof">pause</property>
   <property name="resource">/tmp/beasty.mp4</property>
   <property name="meta.media.nb_streams">2</property>
@@ -19,7 +19,7 @@
   <property name="meta.media.0.codec.color_trc">6</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">225489489</property>
+  <property name="meta.media.0.codec.bit_rate">226027818</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.media.1.stream.type">audio</property>
   <property name="meta.media.1.codec.sample_fmt">fltp</property>
@@ -27,7 +27,7 @@
   <property name="meta.media.1.codec.channels">2</property>
   <property name="meta.media.1.codec.name">aac</property>
   <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
-  <property name="meta.media.1.codec.bit_rate">331630</property>
+  <property name="meta.media.1.codec.bit_rate">335367</property>
   <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
   <property name="meta.attr.major_brand.markup">isom</property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -48,10 +48,10 @@
   <property name="meta.media.color_trc">6</property>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1280</property>
-  <property name="kdenlive:file_size">14157686173</property>
-  <property name="kdenlive:file_hash">367acc1c06064f149330f543830eb61e</property>
+  <property name="kdenlive:file_size">13977344990</property>
+  <property name="kdenlive:file_hash">c4bdc896e86610c2574c22d18af13bfe</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
   <property name="global_feed">1</property>
  </producer>
  <playlist id="main bin">
@@ -64,7 +64,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.3</property>
-  <property name="kdenlive:docproperties.position">7047</property>
+  <property name="kdenlive:docproperties.position">6178</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -79,7 +79,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">100</property>
-  <property name="kdenlive:docproperties.zoom">13</property>
+  <property name="kdenlive:docproperties.zoom">10</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups">&lt;groups>
  &lt;group>
@@ -109,7 +109,7 @@
   <property name="kdenlive:docproperties.renderurl">output/beasty1080.mp4</property>
   <property name="kdenlive:docproperties.renderzone">0</property>
   <property name="xml_retain">1</property>
-  <entry out="15046" producer="2" in="0"/>
+  <entry out="14819" producer="3" in="0"/>
  </playlist>
  <producer id="black" out="29606" in="0">
   <property name="length">29607</property>
@@ -120,14 +120,14 @@
   <property name="set.test_audio">0</property>
  </producer>
  <playlist id="black_track">
-  <entry out="15047" producer="black" in="0"/>
+  <entry out="14820" producer="black" in="0"/>
  </playlist>
  <playlist id="playlist1">
   <property name="kdenlive:track_name">Audio 2</property>
   <property name="kdenlive:audio_track">1</property>
  </playlist>
- <producer id="2_playlist2_audio" title="Anonymous Submission" out="15046" in="0">
-  <property name="length">00:08:21:17</property>
+ <producer id="3_playlist2_audio" title="Anonymous Submission" out="14819" in="0">
+  <property name="length">00:08:14:00</property>
   <property name="eof">pause</property>
   <property name="resource">/tmp/beasty.mp4</property>
   <property name="audio_index">1</property>
@@ -137,8 +137,8 @@
   <property name="seekable">1</property>
   <property name="aspect_ratio">1</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:file_size">14157686173</property>
-  <property name="kdenlive:file_hash">367acc1c06064f149330f543830eb61e</property>
+  <property name="kdenlive:file_size">13977344990</property>
+  <property name="kdenlive:file_hash">c4bdc896e86610c2574c22d18af13bfe</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
   <property name="meta.media.nb_streams">2</property>
@@ -155,7 +155,7 @@
   <property name="meta.media.0.codec.color_trc">6</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">225489489</property>
+  <property name="meta.media.0.codec.bit_rate">226027818</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.media.1.stream.type">audio</property>
   <property name="meta.media.1.codec.sample_fmt">fltp</property>
@@ -163,7 +163,7 @@
   <property name="meta.media.1.codec.channels">2</property>
   <property name="meta.media.1.codec.name">aac</property>
   <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
-  <property name="meta.media.1.codec.bit_rate">331630</property>
+  <property name="meta.media.1.codec.bit_rate">335367</property>
   <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
   <property name="meta.attr.major_brand.markup">isom</property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -175,10 +175,10 @@
  <playlist id="playlist2">
   <property name="kdenlive:track_name">Audio 1</property>
   <property name="kdenlive:audio_track">1</property>
-  <entry out="15046" producer="2_playlist2_audio" in="0"/>
+  <entry out="14819" producer="3_playlist2_audio" in="0"/>
  </playlist>
- <producer id="2_video" title="Anonymous Submission" out="15046" in="0">
-  <property name="length">00:08:21:17</property>
+ <producer id="3_video" title="Anonymous Submission" out="14819" in="0">
+  <property name="length">00:08:14:00</property>
   <property name="eof">pause</property>
   <property name="resource">/tmp/beasty.mp4</property>
   <property name="audio_index">-1</property>
@@ -188,8 +188,8 @@
   <property name="seekable">1</property>
   <property name="aspect_ratio">1</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:file_size">14157686173</property>
-  <property name="kdenlive:file_hash">367acc1c06064f149330f543830eb61e</property>
+  <property name="kdenlive:file_size">13977344990</property>
+  <property name="kdenlive:file_hash">c4bdc896e86610c2574c22d18af13bfe</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
   <property name="meta.media.nb_streams">2</property>
@@ -206,7 +206,7 @@
   <property name="meta.media.0.codec.color_trc">6</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">225489489</property>
+  <property name="meta.media.0.codec.bit_rate">226027818</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.media.1.stream.type">audio</property>
   <property name="meta.media.1.codec.sample_fmt">fltp</property>
@@ -214,7 +214,7 @@
   <property name="meta.media.1.codec.channels">2</property>
   <property name="meta.media.1.codec.name">aac</property>
   <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
-  <property name="meta.media.1.codec.bit_rate">331630</property>
+  <property name="meta.media.1.codec.bit_rate">335367</property>
   <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
   <property name="meta.attr.major_brand.markup">isom</property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -229,11 +229,11 @@
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1280</property>
   <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Video 1</property>
-  <entry out="15046" producer="2_video" in="0">
+  <entry out="14819" producer="3_video" in="0">
    <filter id="crop">
     <property name="mlt_service">crop</property>
     <property name="kdenlive_id">crop</property>
@@ -247,6 +247,40 @@
     <property name="center_bias">0</property>
     <property name="use_profile">1</property>
     <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+   </filter>
+   <filter id="frei0r.sharpness">
+    <property name="version">0.2</property>
+    <property name="mlt_service">frei0r.sharpness</property>
+    <property name="kdenlive_id">frei0r.sharpness</property>
+    <property name="tag">frei0r.sharpness</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="Amount">0=0.3</property>
+    <property name="Size">0=0</property>
+    <property name="disable">0</property>
+   </filter>
+   <filter id="frei0r.hqdn3d">
+    <property name="version">0.1</property>
+    <property name="mlt_service">frei0r.hqdn3d</property>
+    <property name="kdenlive_id">frei0r.hqdn3d</property>
+    <property name="tag">frei0r.hqdn3d</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="Spatial">0=0.099</property>
+    <property name="Temporal">0=0.06</property>
+    <property name="disable">0</property>
+    <property name="kdenlive_info"/>
+   </filter>
+   <filter id="movit.sharpen">
+    <property name="matrix_size">0~=6</property>
+    <property name="circle_radius">0~=1.71</property>
+    <property name="gaussian_radius">0~=1.68</property>
+    <property name="correlation">0~=0.95</property>
+    <property name="noise">0~=0.165</property>
+    <property name="mlt_service">movit.sharpen</property>
+    <property name="kdenlive_id">movit.sharpen</property>
+    <property name="tag">movit.sharpen</property>
+    <property name="kdenlive_ix">4</property>
+    <property name="kdenlive_info"/>
    </filter>
   </entry>
  </playlist>
@@ -256,7 +290,7 @@
  <playlist id="playlist5">
   <property name="kdenlive:track_name">Video 3</property>
  </playlist>
- <tractor id="maintractor" title="Anonymous Submission" global_feed="1" out="15047" in="0">
+ <tractor id="maintractor" title="Anonymous Submission" global_feed="1" out="14820" in="0">
   <track producer="black_track"/>
   <track producer="playlist1" hide="video"/>
   <track producer="playlist2" hide="video"/>
